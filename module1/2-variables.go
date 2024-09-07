@@ -2,10 +2,9 @@ package main
 
 import "fmt"
 
-func main() {
+func Variables() {
 	// most basic declaration
-	var x int // keyword - name - type || default value = 0
-	x = 2
+	var x int = 2 // keyword - name - type || default value = 0
 	fmt.Println(x)
 	
 	var xa = 3

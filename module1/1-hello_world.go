@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-// Always, the first program :)
-func main() {
+// HelloWorld - always the first program :)
+func HelloWorld() {
 	fmt.Println("hello world")
 }
 
