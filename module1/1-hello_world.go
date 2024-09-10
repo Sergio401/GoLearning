@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // HelloWorld - always the first program :)
-func HelloWorld() {
+func main() {
 	fmt.Println("hello world")
 }
 

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Variables() {
+func main() {
 	// most basic declaration
 	var x int = 2 // keyword - name - type || default value = 0
 	fmt.Println(x)
