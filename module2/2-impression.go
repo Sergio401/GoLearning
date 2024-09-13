@@ -20,5 +20,5 @@ func main() {
 	fmt.Printf("Type: %T\n", numInString)
 
 	impedance := complex(2, 3)
-	fmt.Println(impedance)
+	fmt.Printf("Value: %v\n", impedance)
 }
