@@ -31,4 +31,27 @@ func main() {
 
     fmt.Println(strconv.Atoi("123")) // 123, convert string to int, return int and error
     fmt.Println(strconv.Itoa(123)) // "123", convert int to string
+
+
+    // CONSTANTS
+    
+    const (
+        y = 4
+        z = "hello"
+    )
+    
+    fmt.Println(y, z)
+
+    // IOTA
+
+    type Grades int
+    
+    const (
+        a Grades = iota
+        b
+        c
+    )
+
+    fmt.Println(a, b, c)
+
 }
