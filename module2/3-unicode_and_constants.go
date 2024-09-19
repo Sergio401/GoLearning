@@ -27,7 +27,7 @@ func main() {
     fmt.Println(strings.Contains("Hello", "o")) // true
     
     fmt.Println(strings.Replace("Hello", "e", "a", 1)) // Hallo, (string, old, new, n)
-    fmt.Println(strings.Replace("Hello", "l", "a", -1)) // Heaao, (string, old, new, n), n=-1 replace all ocurrences
+    fmt.Println(strings.Replace("ianianian", "ni", "in", 2)) // Heaao, (string, old, new, n), n=-1 replace all ocurrences
 
     fmt.Println(strconv.Atoi("123")) // 123, convert string to int, return int and error
     fmt.Println(strconv.Itoa(123)) // "123", convert int to string

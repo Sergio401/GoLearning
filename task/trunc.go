@@ -1,16 +1,21 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
+
 
 func main() {
-	var floatNumber float32
+	var floatNumber float64
 
 	fmt.Println("Enter a float number:")
 	_, err := fmt.Scan(&floatNumber)
 
 	if err == nil {
-		truncatedNumber := int(floatNumber)
-		fmt.Println("Truncated number:", truncatedNumber)
+		truncatedNumber := math.Trunc(floatNumber)
+		intNumber := int(truncatedNumber)
+		fmt.Println("Truncated number:", intNumber)
 	} else {
 		fmt.Println("error scanning float number:", err)
 	}
