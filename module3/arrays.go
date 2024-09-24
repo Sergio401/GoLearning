@@ -19,7 +19,7 @@ func main() {
 
 	// Iterate over an array
 	for i, value := range odds {
-		fmt.Println("Index:", i, "Value:", value) 
+		fmt.Println("Index:", i, "Value:", value) // Index: 0 Value: 1
 	}
 	
 	
